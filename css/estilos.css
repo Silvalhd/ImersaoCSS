@@ -1,0 +1,47 @@
+body {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    height: 100vw;
+}
+
+.menu {
+    background-color: #fff;
+    font-size: 20px;
+    padding: 10;
+    margin: 10px;     
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu a {
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+.menu a:active {
+    color: red;
+}
+
+.site-title {
+    font-weight: bold;
+}
+
+.site-title,
+.site-subtitle {
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.site-subtitle {
+    font-style: italic;
+    font-size: 30px;
+}
+
+  
