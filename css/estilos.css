@@ -3,13 +3,31 @@ body {
     color: #ecf0f1;
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
     height: 100vw;
+    font-size: 15px;
+}
+
+/* se a tela tiver pelo menos 400px vai carregar estes estilos */
+
+@media (min-width: 400px) {
+    body {
+       font-size: 15px;
+        
+    }
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .menu {
     background-color: #fff;
-    font-size: 20px;
-    padding: 10;
-    margin: 10px;     
+    position: fixed;
+    width: 100vw;
+    top: 0;     
 }
 
 .menu ul {
@@ -20,20 +38,27 @@ body {
 .menu a {
     color: #2c3e50;
     text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+}
+
+.menu a:hover {
+    background-color: rgba(83, 92, 104,0.1);
+    
 }
 
 .menu a:active {
-    color: red;
+    color: #38ada9;
 }
 
 .site-title {
     font-weight: bold;
+    font-size: 2em;
 }
 
 .site-title,
 .site-subtitle {
     text-align: center;
-    font-size: 40px;
     padding: 10px;
     margin: 10px;
 }
@@ -41,7 +66,8 @@ body {
 
 .site-subtitle {
     font-style: italic;
-    font-size: 30px;
+    font-size: 1.5em;
+    
 }
 
   
